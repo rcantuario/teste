@@ -1,0 +1,32 @@
+.card{
+    width: 60vh;
+    height: 15vh;
+    color: white;
+    display: flex;
+    background-color: #800080;
+}
+
+img {
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.avatar{
+    display: flex;
+    align-self: center;
+
+}
+
+.text{
+    flex-grow: 0.5;
+    padding-left: 10px;
+}
+
+.icon{
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+}
+

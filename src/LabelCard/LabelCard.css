@@ -1,0 +1,17 @@
+.labelCard{
+    width: 60vh;
+    height: 15vh;
+    display: flex;
+}
+
+.text{
+    flex-grow: 0.5;
+    padding-left: 20px;
+}
+
+.icon{
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+}
+
