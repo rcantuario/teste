@@ -8,9 +8,10 @@
 
 img {
     vertical-align: middle;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    margin-left: 20px;
 }
 
 .avatar{
@@ -20,13 +21,17 @@ img {
 }
 
 .text{
+    display: flex;
+    flex-direction: column;
     flex-grow: 0.5;
     padding-left: 10px;
+    text-align: left;
+    vertical-align: center;
 }
 
 .icon{
     vertical-align: middle;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 

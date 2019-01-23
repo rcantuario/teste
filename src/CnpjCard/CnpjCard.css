@@ -2,4 +2,10 @@
     width: 60vh;
     height: 15vh;
     display: flex;
+    color:grey;
+    background-color: white
+}
+
+input{
+    height : 9vh;
 }

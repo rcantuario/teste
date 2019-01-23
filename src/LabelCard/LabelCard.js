@@ -10,9 +10,7 @@ const LabelCard = props => {
         <FontAwesomeIcon icon={faSquare} />
       </div>
 
-      <div className="text">
-        <h4> {props.label}</h4>
-      </div>
+      <div className="text">{props.label}</div>
     </div>
   );
 };

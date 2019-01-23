@@ -1,15 +1,15 @@
 import React from "react";
-import "./LabelCard.css";
+import "./CnpjCard.css";
 
-const LabelCard = props => {
+const CnpjCard = props => {
   return (
     <div className="cnpjCard">
       <div className="text">
-        <p>CNPJ/Empresa</p>
+        <label>CNPJ/Empresa</label>
         <input type="tel" name="cnpj" />
       </div>
     </div>
   );
 };
 
-export default LabelCard;
+export default CnpjCard;
